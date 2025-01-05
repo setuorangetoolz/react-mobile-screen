@@ -1,0 +1,12 @@
+{
+  "name": "react-mobile-screen",
+  "version": "0.0.1",
+  "description": "view components in mobile view.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "setu",
+  "license": "ISC"
+}
+
