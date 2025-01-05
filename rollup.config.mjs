@@ -16,10 +16,16 @@ export default [
     ],
     plugins: [resolve(), css(), typescript(), terser()],
     external: [
-      "react",
-      "styled-components",
+      'react',
+      'react-dom',
+      'styled-components',
       "@mui/material",
       /@mui\/material\/[\w]+/,
     ],
+  },
+  {
+    input: 'dist/types/index.d.ts',
+    output: [{ file: 'dist/index.d.ts', format: 'esm' }],
+    plugins: [dts()],
   },
 ];
