@@ -5,8 +5,7 @@ interface IProps {
   className?: string;
   children?: React.ReactNode;
 }
-const DeviceComponent = ({ className, children }: IProps) => {
-
+const DeviceComponent = ({ className = "", children }: IProps) => {
   return (
     <div className={`${Styles.device} ${className}`}>
       <div className='sphone-device-frame'>
