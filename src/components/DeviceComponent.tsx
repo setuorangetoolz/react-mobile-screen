@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "./DeviceStyles.module.scss"
+import PhoneWrapper from "./DeviceStyles";
 
 interface IProps {
   className?: string;
@@ -7,16 +7,16 @@ interface IProps {
 }
 const DeviceComponent = ({ className = "", children }: IProps) => {
   return (
-    <div className={`${Styles.device} ${className}`}>
+    <PhoneWrapper className={`${className}`}>
       <div className='sphone-device-frame'>
-        <div className={Styles.contentWrapper}>{children}</div>
+        <div className={"sphnone-content-wrapper"}>{children}</div>
       </div>
       <div className='sphone-device-stripe'></div>
       <div className='sphone-device-header'>
         <div className='sphone-device-sensors'></div>
       </div>
       <div className='sphone-device-btns'></div>
-    </div>
+    </PhoneWrapper>
   );
 };
 

@@ -16,11 +16,7 @@ export default [
     ],
     plugins: [
       resolve(),
-      postcss({
-        modules: true,
-        extract: "dist/styles.css",
-        use: ["sass"],
-      }),
+      postcss(),
       typescript(),
       terser(),
     ],
