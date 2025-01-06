@@ -1,5 +1,5 @@
 import dts from "rollup-plugin-dts";
-import sass from "rollup-plugin-sass";
+import postcss from "rollup-plugin-postcss";
 import terser from "@rollup/plugin-terser";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
@@ -16,8 +16,12 @@ export default [
     ],
     plugins: [
       resolve(),
-      sass({
-        output: "dist/styles.css",
+      postcss({
+        modules: {
+          generateScopedName: "[name]__[local]___[hash:base64:5]",
+        },
+        extract: "dist/styles.css",
+        use: ["sass"],
       }),
       typescript(),
       terser(),
