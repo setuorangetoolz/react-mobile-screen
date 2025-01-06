@@ -1,23 +1,22 @@
-import React from 'react';
-import { SxProps, Theme } from '@mui/material';
-import { ContentWrapper, Device } from "./DeviceComponetStyles";
+import React from "react";
+import styles from "./DeviceStyles.module.scss";
 
 interface IProps {
-  wrapperStyles?: SxProps<Theme>;
+  className?: string;
   children?: React.ReactNode;
 }
-const DeviceComponent = ({ wrapperStyles, children }: IProps) => {
+const DeviceComponent = ({ className, children }: IProps) => {
   return (
-    <Device sx={wrapperStyles}>
+    <div className={`${styles.device} ${className}`}>
       <div className='sphone-device-frame'>
-        <ContentWrapper>{children}</ContentWrapper>
+        <div className={styles.contentWrapper}>{children}</div>
       </div>
       <div className='sphone-device-stripe'></div>
       <div className='sphone-device-header'>
         <div className='sphone-device-sensors'></div>
       </div>
       <div className='sphone-device-btns'></div>
-    </Device>
+    </div>
   );
 };
 
