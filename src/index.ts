@@ -1,1 +1,1 @@
-export { default as DeviceComponent } from './components/DeviceComponent';
+export { default as DeviceComponent } from './components/DeviceFrame';

@@ -5,7 +5,7 @@ interface IProps {
   className?: string;
   children?: React.ReactNode;
 }
-const DeviceComponent = ({ className = "", children }: IProps) => {
+const DeviceFrame = ({ className = "", children }: IProps) => {
   return (
     <PhoneWrapper className={`${className}`}>
       <div className='sphone-device-frame'>
@@ -20,4 +20,4 @@ const DeviceComponent = ({ className = "", children }: IProps) => {
   );
 };
 
-export default DeviceComponent;
+export default DeviceFrame;

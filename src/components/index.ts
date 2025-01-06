@@ -1,1 +1,1 @@
-export { default } from "./DeviceComponent";
+export { default } from "./DeviceFrame";
