@@ -1,10 +1,10 @@
 # react-mobile-screen
 
-This is a Mobile view interface [react-mobile-screen](https://npmjs.com/package/convertupleads-theme), a tool that contains Mobile view interface for the content.
+This is a Mobile view interface [react-mobile-screen](https://www.npmjs.com/package/react-mobile-screen), a tool that contains Mobile view interface for the content.
 
 ## Installation
 
-To use this theme, you need to have [react-mobile-screen](https://npmjs.com/package/convertupleads-theme) installed on your machine. You can install it with npm:
+To use this theme, you need to have [react-mobile-screen](https://www.npmjs.com/package/react-mobile-screen) installed on your machine. You can install it with npm:
 
 ```bash
 npm install react-mobile-screen
@@ -25,7 +25,7 @@ use like this-
     return (
         <DeviceFrame>
             What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
             Why do we use it?
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
